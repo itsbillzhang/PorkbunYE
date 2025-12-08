@@ -3,28 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>121225</title>
+    <title>YEEZY SOUND</title>
     <style>
         body, html {
             height: 100%;
             margin: 0;
-            background-color: #000000;
-            overflow: hidden; /* Stops scrolling */
+            
+            /* OFFICIAL YEEZY WHITE */
+            background-color: #FFFFFF; 
+            
+            /* Center the image perfectly */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .bg-image {
-            /* This calls the image you saved */
-            background-image: url('concrete.jpg'); 
+        .center-image {
+            /* 60% Width as requested */
+            width: 60%;
+            height: auto;
             
-            /* This makes it look like a brutalist wall */
-            height: 100%; 
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            /* Prevents it from getting pixelated on massive monitors */
+            max-width: 1000px; 
+            
+            /* Sharp rendering */
+            display: block;
         }
     </style>
     <script>
-        // This is the hidden message for people who "Inspect Element"
+        // THE HIDDEN CLUE (Visible in Console)
         console.log("SYSTEM: UNSTABLE");
         console.log(".......................");
         console.log("SUBJECT: BULLY");
@@ -34,6 +41,6 @@
     </script>
 </head>
 <body>
-    <div class="bg-image"></div>
+    <img src="concrete.jpg" class="center-image" alt="YEEZY">
 </body>
 </html>
